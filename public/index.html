@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>
+        ChatApp
+    </title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<body>
+    <h1>Socket.io</h1>
+    <div id="login">
+        <input id="login-id" placeholder="username">
+        <input id="login-pass" placeholder="password">
+        <button id="join">Start</button>
+    </div>
+    <div class="chat-room">
+        <input id="inpTouser" placeholder="Send to Everyone(deafult)">
+        <input id="newmsg" placeholder="new message">
+        <button id="btnSend">SEND</button>
+        <ul id="ulMsgList"></ul>
+    </div>
+
+</body>
+</head>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="index.js"></script>
+
+</html>

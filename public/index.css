@@ -1,0 +1,9 @@
+#ulMsgList li {
+
+    border-radius: 5px 16px 11px 5px;
+    float: left;
+    list-style-type: none;
+    background: #e1ffc7;
+
+    width: 47px;
+}
